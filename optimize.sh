@@ -72,8 +72,10 @@ main()
 
 	# We create the output directoryls
 	cp -R $INPUT $OUTPUT
+	echo "create the output directoryls"
 	
 	chmod -R 777 $OUTPUT
+	echo "create the permissions directoryls"
 
 	rm -rf $OUTPUT/**/*.jpg
 	rm -rf $OUTPUT/**/*.jpeg
